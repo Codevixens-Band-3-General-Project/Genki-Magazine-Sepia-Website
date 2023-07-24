@@ -50,6 +50,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
+    /* border: 1px solid red; */
 }
 
 .nav-container{
@@ -129,6 +130,28 @@ ul{
 
 .signup a:hover, .subscribe a:hover{
     text-decoration: none;
+}
+
+.display-dropdown a{
+    display: block;
+    margin: 1rem;
+    color: #fff;
+}
+
+.display-dropdown-container{
+    position: relative;
+}
+
+.display-dropdown{
+    position: absolute;
+    background-color: #1e1e1e;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    border-radius: 20px;
+    display: none;
+}
+
+.display-dropdown-container:hover .display-dropdown{
+    display: block;
 }
 
 /* MAIN */
