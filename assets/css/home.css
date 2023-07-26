@@ -190,6 +190,14 @@ main{
     margin-bottom: 3rem;
 }
 
+img, .round-images{
+    transition: margin-top 0.3s ease;
+}
+
+img:hover, .round-images:hover{
+    margin-top: -0.4rem;
+}
+
 .images1, .images2, .images3, .images4, .images5, .arrow, .images6, .new-post{
     justify-content: space-between;
 }
@@ -569,7 +577,7 @@ main{
 }
 
 .images5{
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
 }
 
 .disappear2{
